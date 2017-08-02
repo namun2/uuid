@@ -5,14 +5,19 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="App" style={{ backgroundColor: '#021526', height: '100vh', fontSize:'8rem' }}>
+          <div style={{ color:'white', paddingTop:'10rem' }}>
+            111
+          </div>
+          <div style={{ fontSize:'4rem', color:'darkseagreen', paddingBottom:'4rem' }}>
+            UUIDs generated
+          </div>
+          <div style={{ fontSize:'2rem', color:'white' }}>
+            Likelihood of collision:
+          </div>
+          <div style={{ fontSize:'4rem', color:'thistle' }}>
+            Winning the Lotto 100000 times
+          </div>
       </div>
     );
   }
